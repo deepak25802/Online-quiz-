@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
-#include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -276,5 +274,4 @@ void signup()
     fwrite(&u, sizeof(u), 1, f);
     fclose(f);
     printf("\n\t\t Press any key to continue......\n");
-    getch();
 }
